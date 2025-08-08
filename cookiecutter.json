@@ -1,6 +1,6 @@
 {
     "project_title": "My Cookiecutter",
-    "project_slug": "{{Cookiecutter.project_title.lower().replace(' ','_').replace('-','_')}}",
+    "project_slug": "{{cookiecutter.project_title.lower().replace(' ','_').replace('-','_')}}",
     "project_description": "Something cool",
     "project_author_name": "LuisjRubio",
     "project_packages": ["All", "Minimal"],
